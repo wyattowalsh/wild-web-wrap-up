@@ -1,0 +1,98 @@
+{
+  "brand": {
+    "primary": "#6a9fb5",
+    "primaryForeground": "#14313d",
+    "darkSurface": "#14313d",
+    "darkSurfaceForeground": "#ffffff"
+  },
+  "contrastPairs": [
+    {
+      "label": "dark surface foreground",
+      "foreground": "#ffffff",
+      "background": "#14313d",
+      "minimum": 4.5
+    }
+  ],
+  "appTokenPairs": [
+    {
+      "label": "app primary foreground",
+      "foregroundVariable": "--primary-foreground",
+      "backgroundVariable": "--primary",
+      "foreground": "#14313d",
+      "background": "#6a9fb5",
+      "minimum": 4.5
+    },
+    {
+      "label": "app secondary foreground",
+      "foregroundVariable": "--secondary-foreground",
+      "backgroundVariable": "--secondary",
+      "foreground": "#23495a",
+      "background": "#e5f1f5",
+      "minimum": 4.5
+    },
+    {
+      "label": "app accent foreground",
+      "foregroundVariable": "--accent-foreground",
+      "backgroundVariable": "--accent",
+      "foreground": "#2d6f5d",
+      "background": "#edf4ef",
+      "minimum": 4.5
+    }
+  ],
+  "issueStatuses": ["draft", "scheduled", "about_to_send", "sent"],
+  "issueTemplates": ["classic", "modern", "plaintext"],
+  "snippetCategories": ["editorial", "links", "trust", "cta", "structure"],
+  "snippetTabOrder": [
+    "all",
+    "editorial",
+    "links",
+    "trust",
+    "cta",
+    "structure",
+    "deprecated",
+    "composite"
+  ],
+  "snippetTabLabels": {
+    "all": "All",
+    "editorial": "Editorial",
+    "links": "Links",
+    "trust": "Source/Trust",
+    "cta": "CTA",
+    "structure": "Structure",
+    "deprecated": "Deprecated",
+    "composite": "Composite"
+  },
+  "unsupportedButtondownPayloadFields": [
+    "metadata",
+    "filters",
+    "attachments",
+    "tags",
+    "tag_ids",
+    "segment",
+    "segments",
+    "segment_ids",
+    "subscriber_filter",
+    "comment",
+    "comments",
+    "survey",
+    "surveys",
+    "form",
+    "forms"
+  ],
+  "unsupportedIssueFrontmatterFields": [
+    "metadata",
+    "filters",
+    "attachments",
+    "tag_ids",
+    "segment",
+    "segments",
+    "segment_ids",
+    "subscriber_filter",
+    "comment",
+    "comments",
+    "survey",
+    "surveys",
+    "form",
+    "forms"
+  ]
+}

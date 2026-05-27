@@ -1,0 +1,52 @@
+{
+  "retired": [
+    {
+      "identifier": "archive-link",
+      "replacement": "issue-footer",
+      "reason": "Covered by the footer and share-card patterns.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "support",
+      "replacement": "share-card",
+      "reason": "Merged into a free-plan-safe sharing CTA.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "web-only-subscribe",
+      "replacement": "reader-signal",
+      "reason": "Removed form-adjacent archive-only behavior from snippet catalog.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "sponsor",
+      "replacement": "feature-link",
+      "reason": "Sponsorship-specific snippets are outside the free-plan-safe contract.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "sponsor-disclosure",
+      "replacement": "source-stack",
+      "reason": "Sponsorship-specific disclosure is outside the free-plan-safe contract.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "upgrade",
+      "replacement": "share-card",
+      "reason": "Paid-upgrade variables are outside the free-plan-safe contract.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "feedback",
+      "replacement": "reader-signal",
+      "reason": "Replaced with a normal-reply prompt that does not depend on comments or surveys.",
+      "pruneStatus": "pruned-2026-05-27"
+    },
+    {
+      "identifier": "source-note",
+      "replacement": "source-stack",
+      "reason": "Consolidated provenance patterns into the richer source-stack block.",
+      "pruneStatus": "pruned-2026-05-27"
+    }
+  ]
+}

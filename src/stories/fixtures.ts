@@ -1,0 +1,58 @@
+import type { Issue } from "@/lib/content";
+
+export const primaryIssue: Issue = {
+  title: "Wild Web Wrap-Up #001",
+  slug: "hello-world",
+  date: "2026-05-25",
+  description:
+    "A first issue draft that establishes the archive, editorial shape, and Buttondown workflow.",
+  subject: "Wild Web Wrap-Up #001: The first pass",
+  status: "draft",
+  email_type: "public",
+  tags: ["meta", "setup"],
+  buttondown_id: "em_storybook_preview",
+  body: [
+    "# Wild Web Wrap-Up #001",
+    "",
+    "The first pass is simple: collect the interesting parts of the web, explain why they matter, and keep the archive clean enough to search later.",
+    "",
+    "## The Brief",
+    "",
+    "- A weekly editorial issue is the source of truth.",
+    "- The web archive and Buttondown draft are generated from the same file.",
+    "- Drafts start local, then move to Buttondown when they are ready for review.",
+    "",
+    "## Worth Watching",
+    "",
+    "The most useful version of this project is not a link dump. Each issue should separate quick finds from durable references.",
+  ].join("\n"),
+  dateLabel: "May 25, 2026",
+};
+
+export const issueFixtures: Issue[] = [
+  primaryIssue,
+  {
+    ...primaryIssue,
+    title: "Wild Web Wrap-Up #000",
+    slug: "pilot-notes",
+    date: "2026-05-18",
+    description:
+      "Pilot notes for the newsletter structure, source trail, and archive behavior.",
+    status: "draft",
+    tags: ["pilot"],
+    buttondown_id: undefined,
+    dateLabel: "May 18, 2026",
+  },
+  {
+    ...primaryIssue,
+    title: "Wild Web Wrap-Up #002",
+    slug: "signal-and-sources",
+    date: "2026-06-01",
+    description:
+      "A source-heavy issue shape for durable references, tools, and follow-up dates.",
+    status: "scheduled",
+    tags: ["sources", "tools"],
+    buttondown_id: undefined,
+    dateLabel: "June 1, 2026",
+  },
+];

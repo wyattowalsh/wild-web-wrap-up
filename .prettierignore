@@ -1,0 +1,8 @@
+storybook-static/
+
+buttondown/.buttondown.json
+buttondown/.wild-web-wrap-up-generated.json
+buttondown/branding/
+buttondown/emails/
+buttondown/media/
+buttondown/snippets/

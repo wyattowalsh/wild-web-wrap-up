@@ -1,0 +1,182 @@
+<div
+  role="article"
+  aria-roledescription="email"
+  aria-label="%%ISSUE_TITLE%%"
+  style="
+    margin: 0;
+    padding: 0;
+    background: #f7faf8;
+    color: #172033;
+    font-family:
+      -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Arial, sans-serif;
+  "
+>
+  <div style="display: none; max-height: 0; overflow: hidden; opacity: 0">
+    %%PREHEADER%%
+  </div>
+
+  <table
+    role="presentation"
+    width="100%"
+    cellspacing="0"
+    cellpadding="0"
+    style="border-collapse: collapse; background: #f7faf8"
+  >
+    <tr>
+      <td align="center" style="padding: 28px 14px">
+        <table
+          role="presentation"
+          width="100%"
+          cellspacing="0"
+          cellpadding="0"
+          style="width: 100%; max-width: 680px; border-collapse: collapse"
+        >
+          <tr>
+            <td style="padding: 0 0 18px">
+              <table
+                role="presentation"
+                width="100%"
+                cellspacing="0"
+                cellpadding="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td align="left" style="vertical-align: middle">
+                    <a
+                      href="{{ subscribe_url }}"
+                      style="color: #172033; text-decoration: none"
+                    >
+                      <span
+                        style="
+                          display: inline-block;
+                          padding: 8px 10px;
+                          border: 1px solid #172033;
+                          border-radius: 6px;
+                          font-size: 13px;
+                          font-weight: 800;
+                          letter-spacing: 0;
+                        "
+                        >w4w</span
+                      >
+                      <span
+                        style="
+                          display: inline-block;
+                          padding-left: 10px;
+                          font-size: 14px;
+                          font-weight: 700;
+                        "
+                        >Wild Web Wrap-Up</span
+                      >
+                    </a>
+                  </td>
+                  <td align="right" style="vertical-align: middle">
+                    <a
+                      href="{{ email.absolute_url }}"
+                      style="
+                        color: #23495a;
+                        font-size: 13px;
+                        font-weight: 700;
+                        text-decoration: underline;
+                      "
+                      >Read online</a
+                    >
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td
+              style="
+                background: #ffffff;
+                border: 1px solid #d8e4e7;
+                border-radius: 8px;
+                overflow: hidden;
+              "
+            >
+              <div
+                style="border-top: 6px solid #6a9fb5; padding: 34px 28px 16px"
+              >
+                <p
+                  style="
+                    margin: 0 0 12px;
+                    color: #52636b;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                  "
+                >
+                  %%ISSUE_DATE%%
+                </p>
+                <h1
+                  style="
+                    margin: 0;
+                    color: #172033;
+                    font-size: 34px;
+                    line-height: 1.12;
+                    font-weight: 800;
+                  "
+                >
+                  %%ISSUE_TITLE%%
+                </h1>
+                <p
+                  style="
+                    margin: 16px 0 0;
+                    color: #52636b;
+                    font-size: 16px;
+                    line-height: 1.6;
+                  "
+                >
+                  %%ISSUE_DESCRIPTION%%
+                </p>
+              </div>
+
+              <div
+                style="
+                  padding: 0 28px 34px;
+                  color: #172033;
+                  font-size: 16px;
+                  line-height: 1.7;
+                "
+              >
+                %%EMAIL_BODY%%
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding: 22px 4px 0">
+              <p
+                style="
+                  margin: 0;
+                  color: #52636b;
+                  font-size: 13px;
+                  line-height: 1.6;
+                "
+              >
+                You are receiving this because you subscribed to Wild Web
+                Wrap-Up. You can
+                <a
+                  href="{{ unsubscribe_url }}"
+                  style="color: #23495a; text-decoration: underline"
+                  >unsubscribe</a
+                >,
+                <a
+                  href="{{ manage_subscription_url }}"
+                  style="color: #23495a; text-decoration: underline"
+                  >manage preferences</a
+                >, or
+                <a
+                  href="{{ email.absolute_url }}"
+                  style="color: #23495a; text-decoration: underline"
+                  >read this issue on the web</a
+                >.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
